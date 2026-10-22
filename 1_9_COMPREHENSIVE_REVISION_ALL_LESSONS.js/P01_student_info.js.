@@ -1,0 +1,38 @@
+// ============================================================
+// P01_student_info.js
+// LESSON 1: VARIABLES
+// ============================================================
+// REQUIREMENTS:
+//  1. Store student name using const   (value: "Ravi")
+//  2. Store roll number using const    (value: 101)
+//  3. Store age using let              (value: 20)
+//  4. Store marks using let            (value: 85)
+//  5. Print all four with labels:
+//       Name: Ravi
+//       Roll Number: 101
+//       Age: 20
+//       Marks: 85
+//  6. Add 1 to age, then print: Age: 21
+//
+// EXPECTED OUTPUT:
+//  Name: Ravi
+//  Roll Number: 101
+//  Age: 20
+//  Marks: 85
+//  Age: 21
+// ============================================================
+
+// YOUR CODE HERE
+
+const Name = "Ravi";
+const RollNumber = 101 ;
+let Age = 20 ,  Marks = 85;
+  
+
+   console.log("Name: "+Name);
+   console.log("Roll Number: "+RollNumber);
+   console.log("Age: "+Age);
+   console.log("Marks: "+Marks);
+   console.log("Age: "+(Age=Age+1));
+
+
